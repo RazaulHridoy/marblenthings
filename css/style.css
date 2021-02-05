@@ -282,7 +282,7 @@ label {
 }
 .search-box input {
 	height: 50px;
-	width: 100%;
+	width: 400px;
 	border: 1px solid #ddd;
 	padding: 0 25px;
 }
