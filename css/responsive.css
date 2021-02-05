@@ -1,0 +1,188 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .shopby-single-img {
+        width: 31%;
+        padding: 20px 25px;
+    }
+    .shopby-single-img h5 {
+        font-size: 22px;
+    }
+    .trending-single-item {
+        width: 31%;
+    }
+    .trending-single-item h5 {
+        font-size: 22px;
+    }
+    .single-feature {
+        padding: 25px 25px;
+        width: 48%;
+    }
+    .feature-text {
+        left: 100px;
+        right: 100px;
+        padding: 30px 15px;
+    }
+    .feature-text p {
+        font-size: 18px;
+    }
+    .feature-text h2 {
+        font-size: 25px;
+    }
+    .single-brand-img {
+        width: 15%;
+    }
+    .simple-text {
+        margin-top: 15px;
+    }
+    .header-notification {
+        margin-top: 20px;
+    }
+    .main-menu ul li a {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .menu-area-details {
+        padding: 17px 0;
+    }
+    .single-coustomer {
+        max-width: 290px;
+    }
+    .single-footer-widget {
+        max-width: 200px;
+    }
+    .widget-title h3 {
+        font-size: 16px;
+    }
+    .botom-social-icon {
+        margin-top: 15px;
+    }
+    .botom-social-icon a {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .search-box {
+        margin: 15px 0px;
+    }
+    .search-box input {
+        width: 100%;
+    }
+    .category-menu {
+        padding: 10px 15px;
+    }
+    .main-menu ul li a {
+        font-size: 15px;
+        padding: 0 0 0 18px;
+    }
+    .extra-menu {
+        margin-top: 15px;
+    }
+    .shopby-single-img {
+        width: 47%;
+    }
+    .shopby-single-img h5 {
+        font-size: 25px;
+    }
+    .trending-single-item {
+        width: 30%;
+    }
+    .trending-single-item h5 {
+        font-size: 20px;
+        padding: 20px 25px;
+    }
+    .feature-category {
+        flex-direction: column;
+    }
+    .single-feature {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .single-coustomer {
+        max-width: 325px;
+        margin-bottom: 30px;
+    }
+    .single-footer-widget {
+        max-width: 60%;
+        margin-bottom: 25px;
+    }
+    .botom-social-icon {
+        margin-top: 15px;
+    }
+    .botom-social-icon a {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .search-box {
+        margin: 20px 0px;
+        width: 100%;
+    }
+    .main-menu {
+        display: none;
+    }
+    .trending-single-item {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .single-feature {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .shopby-single-img {
+        width: 100%;
+    }
+    .feature-text h2 {
+        display: none;
+    }
+    .section-title-text h2 {
+        font-size: 35px;
+    }
+    .section-title-text span {
+        font-size: 18px;
+    }
+    .subscribe-bar {
+        width: 100%;
+    }
+    .subscribe-bar input {
+        width: 100%;
+    }
+    .single-coustomer {
+        margin-bottom: 30px;
+    }
+    .single-footer-widget {
+        max-width: 230px;
+        margin-bottom: 25px;
+    }
+    .botom-social-icon {
+        margin-top: 15px;
+    }
+    .botom-social-icon a {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
